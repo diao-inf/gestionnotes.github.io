@@ -18,10 +18,12 @@
     <title>mon ecole</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3 mb-5">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Logo</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+      aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     
@@ -40,13 +42,11 @@
             <a class="nav-link mx-2" href="#">Classe</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link mx-2 dropdown-toggle mx-5" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Ibrahima DIAO
-            </a>
+            <a class="nav-link mx-2 dropdown-toggle mx-5" href="#" id="navbarDropdownMenuLink"
+            role="button" data-bs-toggle="dropdown" aria-expanded="false">Ibrahima DIAO</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="#">Profil</a></li>
               <li><a class="dropdown-item" href="#">Deconnexion</a></li>
-              <!-- <li><a class="dropdown-item" href="#">Contact us</a></li> -->
             </ul>
           </li>
         </ul>
@@ -67,7 +67,7 @@
     </main>
 
 
-    <footer class="bg-dark text-center text-white">
+    <footer class="bg-dark text-center text-white mt-5">
   <!-- Grid container -->
   <div class="container p-4 pb-0">
     <!-- Section: Social media -->
@@ -116,6 +116,6 @@
 </body>
 <source src="../view/template/bootstrap/js/bootstrap.js" type="">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
 </html>
