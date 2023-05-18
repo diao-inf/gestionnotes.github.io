@@ -1,5 +1,5 @@
 <div>
-    <h1 class="text-center text-primary">Listes des élves de la 6e A: Annee scolaire 2020-2021</h1>
+    <h1 class="text-center text-primary">Listes des élèves de la 6e A: Annee scolaire 2020-2021</h1>
 </div>
 <div class="row">
     <div class="col-6">
@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="col-6 d-flex justify-content-end align-items-center">
-      <button type="button" class="btn btn-success btn-lg mx-5 p-3"><i class="fa-solid fa-user-plus"></i>  Ajouter élève</button>
+      <button type="button" class="btn btn-success btn-lg mx-5 p-3"><i class="fa-solid fa-user-plus"></i>  Ajouter un élève</button>
     </div>
 </div>
 <table class="table table-striped table-hover">

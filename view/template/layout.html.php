@@ -30,16 +30,16 @@
       <div class="collapse navbar-collapse " id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto ">
           <li class="nav-item">
-            <a class="nav-link mx-2 active" aria-current="page" href="#">Eleve</a>
+            <a class="nav-link mx-2 active" aria-current="page" href="index.php?menu=listerEleve">Eleve</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="#">Annee Scolaire</a>
+            <a class="nav-link mx-2" href="index.php?menu=listerAnneeScol">Annee Scolaire</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="#">Niveau</a>
+            <a class="nav-link mx-2" href="index.php?menu=niveau">Niveau</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="#">Classe</a>
+            <a class="nav-link mx-2" href="index.php?menu=listerClasse">Classe</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link mx-2 dropdown-toggle mx-5" href="#" id="navbarDropdownMenuLink"
