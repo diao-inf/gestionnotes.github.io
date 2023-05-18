@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="col-6 d-flex justify-content-end align-items-center">
-      <button type="button" class="btn btn-success btn-lg mx-5 p-3"><i class="fa-solid fa-user-plus"></i>  Ajouter une classe</button>
+      <button type="button" class="btn btn-success btn-lg mx-5 p-3"><a class="text-white" href="index.php?menu=ajoutClasse"><i class="fa-solid fa-user-plus"></i>  Ajouter une classe</a></button>
     </div>
 </div>
 <table class="table table-striped table-hover">

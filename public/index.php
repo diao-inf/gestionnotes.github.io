@@ -49,6 +49,20 @@ switch ($menu) {
         $vue .= ob_get_clean();
         require_once "view/template/layout.html.php";
         break;
+    case 'ajoutEleve':
+        $vue = "";
+        ob_start();
+        require_once("view/ajout/eleve.html.php");
+        $vue .= ob_get_clean();
+        require_once "view/template/layout.html.php";
+        break;
+    case 'ajoutClasse':
+        $vue = "";
+        ob_start();
+        require_once("view/ajout/classe.html.php");
+        $vue .= ob_get_clean();
+        require_once "view/template/layout.html.php";
+        break;
     default:
         require_once "view/connexion.html.php";
         break;
